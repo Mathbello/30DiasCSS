@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+body ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    position: relative;
+   
+}
+
+ul li{
+    list-style: none;
+    display: flex;
+    margin-right: 80px;
+    width: 64px;
+    height: 64px;
+    transform: rotate(-30deg) skew(25deg);
+    transition: .8s;
+}
+
+.fab {
+    position: absolute;
+    font-size: 64px;
+    transition: .8s;
+}
+
+/* Hover das camadas a partir do icone fab */
+li:hover .fab:nth-child(5) {
+    transform: translate(130px, -130px);
+    opacity: 1;
+}
+
+li:hover .fab:nth-child(4) {
+    transform: translate(100px, -100px);
+    opacity: .8;
+}
+
+li:hover .fab:nth-child(3) {
+    transform: translate(70px, -70px);
+    opacity: .6;
+}
+
+li:hover .fab:nth-child(2) {
+    transform: translate(40px, -40px);
+    opacity: .4;
+}
+
+li:hover .fab:nth-child(1) {
+    transform: translate(10px, -10px);
+    opacity: .2;
+}
+
+/* Cores dos ícones a partir do fab */
+li:nth-child(1) {
+    color: #3b5998;
+}
+
+li:nth-child(2), .insta {
+    background-image: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+li:nth-child(3) {
+    color: #000000;
+}
+
+li:nth-child(4) {
+    color: #0072b1;
+
+}
+li:nth-child(5) {
+    color: #7289DA;
+}
+
+a:visited,
+a:active,
+a:link{
+    color: unset;
+}
