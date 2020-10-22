@@ -58,7 +58,7 @@ Canais ótimos que a [Milena Carecho](https://github.com/MilenaCarecho) deixou c
 
 
 ##  Desafio dia 01 - Ícone de mídia social em camadas <a name="id01"></a>
-<img src="https://i.imgur.com/0QQ9xcTt.gif" alt="Animação de ícones em camadas">
+![Dia 01](https://i.imgur.com/0QQ9xcT.gif)
 
 [Meu codigo](https://github.com/Mathbello/30DiasCSS/tree/main/day01)
 
