@@ -1,5 +1,6 @@
 # 🚀 30diasDeCSS 🚀
 [Milena Carecho](https://github.com/MilenaCarecho) 
+
 "30 dias de CSS3, é um desafio que visa ajudá-lo a melhorar suas habilidades de codificação fazendo mini projetos diarios utilizando HTML5 e CSS3"
 
 
@@ -57,7 +58,7 @@ Canais ótimos que a [Milena Carecho](https://github.com/MilenaCarecho) deixou c
 
 
 ##  Desafio dia 01 - Ícone de mídia social em camadas <a name="id01"></a>
-![Dia 01](https://i.imgur.com/0QQ9xcT.gifv)
+<img src="https://i.imgur.com/0QQ9xcTt.gif" alt="Animação de ícones em camadas">
 
 [Meu codigo](https://github.com/Mathbello/30DiasCSS/tree/main/day01)
 
