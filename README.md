@@ -61,6 +61,7 @@ Canais ótimos que a [Milena Carecho](https://github.com/MilenaCarecho) deixou c
 ![Dia 01](https://i.imgur.com/0QQ9xcT.gif)
 
 [Meu codigo](https://github.com/Mathbello/30DiasCSS/tree/main/day01)
+
 [Post LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:6724861906873532416/) 
 
 
@@ -68,4 +69,5 @@ Canais ótimos que a [Milena Carecho](https://github.com/MilenaCarecho) deixou c
 ![Dia 02](https://i.imgur.com/h3jbLcZ.gif)
 
 [Meu codigo](https://github.com/Mathbello/30DiasCSS/tree/main/dia02)
+
 [Post LinkedIn](https://www.linkedin.com/posts/matheus-maragno_30diasdecss-activity-6725122786920026112-bLWA)
