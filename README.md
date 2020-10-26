@@ -60,7 +60,7 @@ Canais ótimos que a [Milena Carecho](https://github.com/MilenaCarecho) deixou c
 ##  Desafio dia 01 - Ícone de mídia social em camadas <a name="id01"></a>
 ![Dia 01](https://i.imgur.com/0QQ9xcT.gif)
 
-[Meu codigo](https://github.com/Mathbello/30DiasCSS/tree/main/day01)
+[Meu codigo](https://github.com/Mathbello/30DiasCSS/tree/main/dia01)
 
 [Post LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:6724861906873532416/) 
 
@@ -71,3 +71,27 @@ Canais ótimos que a [Milena Carecho](https://github.com/MilenaCarecho) deixou c
 [Meu codigo](https://github.com/Mathbello/30DiasCSS/tree/main/dia02)
 
 [Post LinkedIn](https://www.linkedin.com/posts/matheus-maragno_30diasdecss-activity-6725122786920026112-bLWA)
+
+
+## Desafio dia 03 - Mudança de cor de texto quando entra em outra div <a name="id03"></a>
+![Dia 03](https://i.imgur.com/Ep2LYPI.gif)
+
+[Meu codigo](https://github.com/Mathbello/30DiasCSS/tree/main/dia03)
+
+[Post LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:6725595895703846912/)
+
+
+## Desafio dia 04 - Botão com efeito <a name="id04"></a>
+![Dia 04](https://i.imgur.com/wnIbYJj.gif)
+
+[Meu codigo](https://github.com/Mathbello/30DiasCSS/tree/main/dia04)
+
+[Post LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:6725911971989872640/)
+
+
+## Desafio dia 05 - Efeito pulsar <a name="id04"></a>
+![Dia 05](https://i.imgur.com/VIhWBWc.gif)
+
+[Meu codigo](https://github.com/Mathbello/30DiasCSS/tree/main/dia05)
+
+[Post LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:6726326413932281856/)
