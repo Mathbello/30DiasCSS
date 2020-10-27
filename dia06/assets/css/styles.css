@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #000000;
+  font-family:  'Sandbrush demo', 'Bad Script', Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  margin-right: 0;
+  padding: 0;
+  color: #111111;
+  font-size: 12em;
+}
+
+h1 span {
+  display: table-cell;
+  margin: 0;
+  padding: 0;
+  animation: animate 4s linear infinite;
+}
+
+h1 span:nth-child(1) {
+  animation-delay: 0s;
+}
+h1 span:nth-child(2) {
+  animation-delay: 0.25s;
+}
+h1 span:nth-child(3) {
+  animation-delay: 0.5s;
+}
+h1 span:nth-child(4) {
+  animation-delay: 0.75s;
+}
+h1 span:nth-child(5) {
+  animation-delay: 1s;
+}
+h1 span:nth-child(6) {
+  animation-delay: 1.25s;
+}
+h1 span:nth-child(7) {
+  animation-delay: 1.5s;
+}
+h1 span:nth-child(8) {
+  animation-delay: 1.75s;
+}
+h1 span:nth-child(9) {
+  animation-delay: 2s;
+}
+h1 span:nth-child(10) {
+  animation-delay: 2.25s;
+}
+h1 span:nth-child(11) {
+  animation-delay: 2.5s;
+}
+h1 span:nth-child(12) {
+  animation-delay: 2.75s;
+}
+h1 span:nth-child(13) {
+  animation-delay: 3s;
+}
+h1 span:nth-child(14) {
+  animation-delay: 3.25s;
+}
+h1 span:nth-child(15) {
+  animation-delay: 3.5s;
+}
+h1 span:nth-child(16) {
+  animation-delay: 3.75s;
+}
+
+@keyframes animate {
+  0%, 100% {
+    color: #ffffff;
+    filter: blur(2px);
+    text-shadow: 0 0 10px #fa7c18,
+                0 0 20px #fa7c18,
+                0 0 40px #fa7c18,
+                0 0 80px #fa7c18,
+                0 0 120px #fa7c18,
+                0 0 200px #fa7c18,
+                0 0 300px #fa7c18,
+                0 0 400px #fa7c18;
+  }
+
+  5%, 95% {
+    color: #111111;
+    filter: blur(2px);
+    text-shadow: none;
+  }
+}
