@@ -89,9 +89,25 @@ Canais ótimos que a [Milena Carecho](https://github.com/MilenaCarecho) deixou c
 [Post LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:6725911971989872640/)
 
 
-## Desafio dia 05 - Efeito pulsar <a name="id04"></a>
+## Desafio dia 05 - Efeito pulsar <a name="id05"></a>
 ![Dia 05](https://i.imgur.com/VIhWBWc.gif)
 
 [Meu codigo](https://github.com/Mathbello/30DiasCSS/tree/main/dia05)
 
 [Post LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:6726326413932281856/)
+
+
+## Desafio dia 06 - Efeito lightning text <a name="id06"></a>
+![Dia 06](https://i.imgur.com/Vl5b75N.gif)
+
+[Meu codigo](https://github.com/Mathbello/30DiasCSS/tree/main/dia06)
+
+[Post LinkedIn](https://www.linkedin.com/posts/matheus-maragno_30diasdecss-activity-6726684929112973312-3-vV)
+
+
+## Desafio dia 07 - Preloader animado <a name="id07"></a>
+![Dia 07](https://i.imgur.com/IMqQVie.gif)
+
+[Meu codigo](https://github.com/Mathbello/30DiasCSS/tree/main/dia07)
+
+[Post LinkedIn](https://www.linkedin.com/posts/matheus-maragno_30diasdecss-activity-6727037193451393024-oZ45)
