@@ -1,0 +1,68 @@
+body {
+  background-color: #1e272e;
+}
+
+.pendulo {
+  position: absolute;
+  width: 220px;
+  height: 180px;
+  background-color: #485460;
+  top: 50%;
+  left: 50%;
+  border-radius: 4%;
+  align-items: center;
+  border-top: 15px solid #808e9b;
+  transform: translate(-50%, -50%);
+}
+
+.penduloBox {
+  display: flex;
+  padding: 120px 0 0 10px;
+  position: absolute;
+  flex: 1;
+}
+
+.ball {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #05c46b;
+  position: relative;
+  transform-origin: 50% -300%;
+}
+
+.ball::before {
+  content: '';
+  width: 2px;
+  height: 120px;
+  background-color: #ffffff;
+  left: 18px;
+  top: -120px;
+  position: absolute;
+}
+
+.ball.first {
+  animation: firstball .9s alternate ease-in infinite;
+}
+
+@keyframes firstball {
+  0% {
+    transform: rotate(35deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+}
+
+.ball.last {
+  animation: lastball .9s alternate ease-out infinite;
+}
+
+@keyframes lastball {
+  50% {
+    transform: rotate(0deg)
+  }
+  100% {
+    transform: rotate(-35deg)
+  }
+}
