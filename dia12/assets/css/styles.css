@@ -1,0 +1,49 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  -webkit-text-stroke: 2px #000000;
+  font-weight: 700;
+  font-size: 7em;
+}
+
+h1:before,
+h1:after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  color: #039af4;
+  overflow: hidden;
+  transition: 1s;
+  transition-delay: 1s;
+}
+
+h1:hover:before {
+  height: 100%;
+  transition-delay: 0s;
+}
+
+h1:after {
+  color: #e91e63;
+  height: 0;
+  transition-delay: 0s;
+}
+
+h1:hover:after {
+  height: 100%;
+  transition-delay: 1s;
+}
