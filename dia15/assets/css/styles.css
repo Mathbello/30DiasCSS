@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url('../img/maxresdefault.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'creepster';
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  padding-top: 100px;
+  color: #7e1914;
+  font-size: 8em;
+  transform: rotate(-20deg) skew(25deg);
+  animation: animate 5s ease-in-out infinite;
+  letter-spacing: 10px;
+}
+
+@keyframes animate {
+  0%, 100% {
+    transform: rotate(-20deg) skew(25deg) translate(0, 0);
+    text-shadow: -5px 5px 0 rgba(118, 24, 16, .3);
+  }
+
+  50% {
+    transform: rotate(-20deg) skew(25deg) translate(50px, -50px);
+    text-shadow: -50px 50px 0 rgba(118, 24, 16, .1);
+  }
+}
