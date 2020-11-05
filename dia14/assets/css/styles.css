@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(#27a9dd, #1c71e5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  font-family: 'Arial Black';
+  font-size: 11em;
+  line-height: 1em;
+  text-transform: uppercase;
+  background: url('../img/pineapple.png');
+  -webkit-text-stroke: 5px #9548b3;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animate 10s linear infinite;
+  
+}
+
+@keyframes animate {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}
