@@ -1,0 +1,99 @@
+body {
+   margin: 0;
+   padding: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   background: #e91e1e;
+   font-family: sans-serif;
+}
+
+h1 {
+   transition: .5s;
+}
+
+h1 span {
+   display: inline-block;
+   width: 60px;
+   height: 60px;
+   font-size: 60px;
+   background: #000;
+   color: #fff;
+   text-align: center;
+   line-height: 60px;
+   transition: 1s;
+   transform: rotateY(0deg);
+}
+
+h1:hover span {
+   transform: rotateY(360deg);
+}
+
+h1 span:nth-child(1) {
+   transition-delay: .4s;
+}
+
+h1 span:nth-child(2) {
+   transition-delay: .6s;
+}
+
+h1 span:nth-child(3) {
+   transition-delay: .6s;
+}
+
+h1 span:nth-child(4) {
+   transition-delay: .6s;
+}
+
+h1 span:nth-child(5) {
+   transition-delay: .4s;
+}
+
+h1 span:nth-child(6) {
+   transition-delay: .6s;
+}
+
+h1 span:nth-child(7) {
+   transition-delay: .4s;
+}
+
+h1 span:nth-child(8) {
+   transition-delay: .6s;
+}
+
+h1 span:nth-child(9) {
+   transition-delay: .6s;
+}
+
+h1 span:nth-child(10) {
+   transition-delay: .6s;
+}
+
+h1 span:nth-child(11) {
+   transition-delay: .4s;
+}
+
+h1 span:nth-child(12) {
+   transition-delay: .6s;
+}
+
+h1 span:nth-child(13) {
+   transition-delay: .6s;
+}
+
+h1 span:nth-child(14) {
+   transition-delay: .6s;
+}
+
+h1 span:nth-child(15) {
+   transition-delay: .6s;
+}
+
+h1 span:nth-child(16) {
+   transition-delay: .6s;
+}
+
+h1 span:nth-child(17) {
+   transition-delay: .6s;
+}
