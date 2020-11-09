@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  background: url('../../assets/img/céu.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.brilho {
+  position: relative;
+  min-width: 750px;
+  height: 750;
+  margin: -150px;
+  transform-origin: right;
+  animation: animate 5s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    filter: hue-rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.brilho:nth-child(even) {
+  transform-origin: left;
+}
+
+.brilho span {
+  position: absolute;
+  top: calc(80px * var(--i));
+  left: calc(80px * var(--i));
+  bottom: calc(80px * var(--i));
+  right: calc(80px * var(--i));
+}
+
+.brilho span:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: -8px;
+  width: 7px;
+  height: 7px;
+  background: rgb(104, 218, 35);
+  border-radius: 50%;
+}
+
+.brilho span:nth-child(3n + 1):before {
+  background: rgb(104, 218, 35);
+  box-shadow: 0 0 20px rgb(104, 218, 35),
+              0 0 40px rgb(104, 218, 35),
+              0 0 60px rgb(104, 218, 35),
+              0 0 80px rgb(104, 218, 35),
+              0 0 8px rgba(104, 218, 35, .1);
+}
+
+.brilho span:nth-child(3n + 2):before {
+  background: rgb(76, 195, 91);
+  box-shadow: 0 0 20px rgb(76, 195, 91),
+              0 0 40px rgb(76, 195, 91),
+              0 0 60px rgb(76, 195, 91),
+              0 0 80px rgb(76, 195, 91),
+              0 0 8px rgba(76, 195, 91, .1);
+}
+
+.brilho span:nth-child(3n + 2):before {
+  background: rgb(231, 255, 0);
+  box-shadow: 0 0 20px rgb(231, 255, 0),
+              0 0 40px rgb(231, 255, 0),
+              0 0 60px rgb(231, 255, 0),
+              0 0 80px rgb(231, 255, 0),
+              0 0 8px rgba(231, 255, 0, .1);
+}
+
+.brilho span:nth-child(3n + 1) {
+  animation: spark 10s alternate infinite;
+}
+
+.brilho span:nth-child(3n + 2) {
+  animation: spark-reverse 3s alternate infinite;
+}
+
+.brilho span:nth-child(3n + 3) {
+  animation: spark 8s alternate infinite;
+}
+
+@keyframes spark {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spark-reverse {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
