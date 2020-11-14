@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css?family=Megrim);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  background: radial-gradient(#0f28bf, #000000);
+}
+
+h4 {
+  margin-top: 20px;
+  padding: 5px;
+  background-color: #f87603;
+  border: 2px solid red;
+  border-radius: 6px;
+  color: #ffff00;
+  text-shadow: -2px -2px #0f28bf;
+  font-family: 'Megrim';
+  font-size: 20px;
+  letter-spacing: 4px;
+  animation: animate2 1.5s linear infinite;
+  transition: 1.5s;
+}
+
+@keyframes animate2 {
+  0%{
+    background-color: rgba(248, 118, 3, .5);
+  }
+  100%{
+    background-color: rgba(248, 118, 3, 1);
+  }
+}
+
+
+
+.loader {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 8px dotted #ffff00;
+  
+  border-bottom-width: 2px;
+  border-bottom-color: rgb(255, 255, .3);
+  border-left-width: 3px;
+  border-bottom-color: rgb(255, 255, .5);
+  border-top-width: 4px;
+  border-right-width: 5px;
+  border-bottom-color: rgb(255, 255, .7);
+
+  animation: animate 1.5s linear infinite;
+}
+
+.pacman {
+  position: absolute;
+  top: 38px;
+  left: 25px;
+  width: 0;
+  height: 0;
+
+  border-right: 12px solid transparent;
+  border-top: 12px solid #ffff00;
+  border-left: 12px solid #ffff00;
+  border-bottom: 12px solid #ffff00;
+
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+@keyframes animate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
