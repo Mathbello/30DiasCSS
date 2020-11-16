@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #333;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60px;
+  height: 60px;
+}
+
+.c {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  float: left;
+}
+
+.c::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: #3498db;
+  animation: c 1s infinite;
+}
+
+.c2::before {
+  animation-delay: 0.1s;
+}
+
+.c3::before {
+  animation-delay: 0.2s;
+}
+
+.c4::before {
+  animation-delay: 0.3s;
+}
+
+.c5::before {
+  animation-delay: 0.4s;
+}
+
+@keyframes c {
+  100% {
+    width: 0;
+    height: 0;
+  }
+}
